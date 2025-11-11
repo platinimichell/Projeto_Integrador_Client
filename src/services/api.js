@@ -15,7 +15,7 @@ const api = axios.create({
 
 
 const api = axios.create({
-  baseURL: "/api", // caminho relativo! O mesmo domínio serve as duas coisas
+  baseURL: "estoquecarback-adcugjebakhdcrfw.mexicocentral-01.azurewebsites.net", // caminho relativo! O mesmo domínio serve as duas coisas
 });
 
 export default api;
