@@ -2,6 +2,7 @@
 import axios from "axios";
 import { Platform } from "react-native";
 
+/*
 let baseURL = "http://localhost:3000"; // padrão para web e iOS
 
 if (Platform.OS === "android") {
@@ -10,6 +11,11 @@ if (Platform.OS === "android") {
 
 const api = axios.create({
   baseURL,
+}); */
+
+
+const api = axios.create({
+  baseURL: "/api", // caminho relativo! O mesmo domínio serve as duas coisas
 });
 
 export default api;
